@@ -1,0 +1,29 @@
+# Database Authentication
+# ----------------
+
+# Enter Connection Info Here.
+# `service_name` and `sid` should not be both empty
+conn_info:
+    username: 
+    password: 
+    host: 10.123.1.2
+    port: '1521'
+    service_name: name
+    sid:
+
+# Table Names
+# ----------------
+
+# query for selecting data
+table: select * from dpst_lrfm
+
+
+# Output Path
+output_path: C:\Users\me\projects\clustering\output\clusters.csv
+
+
+
+
+
+
+    

@@ -1,0 +1,31 @@
+# Database Authentication
+# ----------------
+
+# Enter Connection Info Here.
+# `service_name` and `sid` should not be both empty
+conn_info:
+    username: m
+    password: m
+    host: 10.123.1.2
+    port: '1521'
+    service_name: name
+    sid:
+
+# Table Names
+# ----------------
+
+# query for selecting clv of customer
+clv_table: select * from DPST_INCOME_MTRX
+# ________________
+
+# input path csv of clustering
+input_path: C:\Users\me\projects\clustering\app\output\clusters.csv
+# Output Path
+output_path: C:\Users\me\projects\clustering\app\output\clv_ranks.csv
+
+
+
+
+
+
+    
